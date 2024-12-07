@@ -311,6 +311,10 @@ p {
     } 
 }
 
+/* insurance */
+.shpd-insurance-title {
+    font-size: 50px !important;
+}
 
 
 /* Features */
