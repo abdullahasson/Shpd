@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Noto+Sans+JP:wght@400;500&family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@400;500&display=swap");
 
 :root {
-    --main-color: #ac1d55;
+    --main-color: #82ccf1;
 
     /* background color */
     --bg-color-c1: #F9F9F9;
-
+    --secondry-bg: linear-gradient(to bottom, #82ccf111, #2070b50e);
+    --secondry-bg-l: linear-gradient(to left, #82ccf111, #2070b50e);
 
     /* #FCF7EF */
-    --sec-color: #FFC9D8;
-    --color-c1:  #E8E8E8;
+    --sec-color: #c9f4ff;
+    --color-c1:  #e8e8e8;
     --color-c2:  #D33672;
     --color-c3:  hsl(0, 0%, 71%);
     --color-c4:  #FFC9D8;
@@ -151,7 +152,7 @@ p {
 /* main button */
 .gozagel-btn-one {
     /* background-color: var(--btn-bg-c1) !important; */
-    background: linear-gradient(to right, #ac1d55, #a31c56) !important;
+    background: linear-gradient(to right, #1d84ac, #1c62a3) !important;
     /* padding: 14px 40px !important; */
     color: var(--btn-txt-c1) !important;
     /* text-transform: uppercase !important; */
@@ -166,7 +167,7 @@ p {
 }
 
 .gozagel-btn-one:hover {
-    background: linear-gradient(to left, #ac1d55, #a31c56) !important;
+    background: linear-gradient(to left, #1d84ac, #1c62a3) !important;
 }
 
 .gozagel-btn-two {
