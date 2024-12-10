@@ -102,7 +102,7 @@ p {
         justify-content: start;
 
         &:hover span {
-            color: #a31c56 !important;
+            color: var(--main-color) !important;
         }
         
         &.disabled {
